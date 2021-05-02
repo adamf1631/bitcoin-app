@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color:#fff;
+  background-color:#333;
+}
+
+#mainDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header{
+  margin:10px 0;
+  padding:10px;
+}
+
+.innerDiv{
+  border:#000 thick solid;
+  border-radius: 25px;
+  padding:30px;
+  max-width:60%;
+}
